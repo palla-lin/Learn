@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="description" content="老男孩培训机构是由一个老的男孩创建的">
+    <title>Title</title>
+</head>
+
+<body>
+<p>filter()、all()、得到的是queryset,一种新的数据格式而已，</p>
+<br><strong><span >他的元素是</span>一个在models定义的类，这个类实现可迭代的方法。</strong>不带参数</br>
+        <b>filter（）可以带参数，也</b>可以不带参数，不带参数就是all()
+        <strong>直接使用values(),可以带</strong>参数过滤，也可以不参数。不带参数
+        返回queryset,他的元素是字典，字典其实是，类里定义的字段
+        和字段值组成的键值对。每个字典是一行数据。与类对应。取
+        出所有行 带参数即这种形式values(‘id)，选择表达出哪个
+        键值对 filter（）是拿出来数据对象，再根据成员符去选择，
+        values()相当于已经选择了哪些对象，所以结果及时字典
+        filter().values()，filte带参数选择哪些行，values()
+        选择一行哪些数据显示出来。这是本质
+<hr>
+<form method="post" action="/test" enctype="multipart/form-data">
+    <select name="city">
+        <option>k</option>
+        <option>j</option>
+        <option>l</option>
+    </select>
+    <input type="submit">
+
+
+</form>
+</body>
+</html>
