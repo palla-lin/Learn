@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2021-04-30T22:15:03.312756",
+    "startedAt": "2021-04-30T22:14:59.555776",
+    "docker": null,
+    "gpu": "GeForce MX350",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:/0Trashed/2_Pytorch/test1.py",
+    "codePath": "test1.py",
+    "host": "LAPTOP-LU2HM6AM",
+    "username": "linpe",
+    "executable": "D:\\codingApps\\Anaconda3.2020\\python.exe"
+}
